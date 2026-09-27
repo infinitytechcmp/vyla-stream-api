@@ -1,0 +1,13 @@
+{
+  "name": "Vyla Stream API",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  "forwardPorts": [7860],
+  "portsAttributes": {
+    "7860": {
+      "label": "Vyla API Backend",
+      "onAutoForward": "notify",
+      "visibility": "public"
+    }
+  },
+  "postCreateCommand": "npm install"
+}
